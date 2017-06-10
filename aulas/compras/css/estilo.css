@@ -1,0 +1,42 @@
+.navbar-brand {
+	height: 4em;
+}
+
+.navbar-brand img {
+	width: 70px;
+	margin-top: -10px;
+}
+
+#navbar ul li a {
+	color : red;
+	padding: 25px;
+	margin-right: 30px;
+}
+
+
+#navbar {
+	float: left;
+}
+
+.cycle-slideshow, .cycle-slide, .img {
+	width:100%;
+}
+
+.valor{
+	color: red;
+
+}
+
+
+.margem {
+	margin-top: 10em;
+}
+
+.imagem {
+	height: 200px;
+}
+
+.footer{
+	color: white;
+	margin-top: auto;
+}

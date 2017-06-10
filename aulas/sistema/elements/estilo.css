@@ -1,0 +1,156 @@
+body{
+		font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+		background-image: url("http://ciaderesultados.com.br/wp-content/uploads/2015/06/tecnologia.jpg");
+		
+	}
+#login{
+	position: center;
+	background-color: blue;
+	border-radius: 10px;
+	border: solid 5px;
+	border-color: white;
+	color:white;
+	font-style: oblique;
+	margin-top:250px;
+	}
+input {
+	border-radius: 8px;
+}
+
+#formulario{
+	text-align:center;
+}
+
+#formulario input{
+	size:100px;
+}
+
+#botoes{
+	text-align:center;
+	margin-right: 210px;
+	margin-left: 210px;
+	margin-top: 38px;
+	
+}
+
+{
+	border-style:inset;
+	border-width:5px;
+	border-color: darkblue;
+}
+
+#botoes input {
+	border-radius: 5px;
+	border: 2px fluid;
+	margin-top:2px;
+}
+
+
+#input sair {
+	position:right;
+}
+#logotipo img{
+	position: absolute;
+	left: 5px;
+	top: 310px;
+	height: 70px;
+	width: 90px;
+}
+#logotipo2{
+	position: center;
+}
+
+
+
+
+
+
+
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* regra para o clear float */
+.cf:before,
+.cf:after {content: " ";display: table;}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+body {
+	margin-left:55px;
+	font:  62.5%/1.2 Verdana, Helvetica, Arial, sans-serif;
+	}
+#lateral {
+	padding:0 50px 0 0;
+	-moz-transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+	font-size:1.2em;
+	background:rgb(44,62,80);
+	background-image: -moz-linear-gradient( 135deg, rgb(3,8,12), rgb(16,57,79) );
+			background-image: -webkit-linear-gradient( 135deg, rgb(3,8,12), rgb(16,57,79) );
+					background-image: -o-linear-gradient( 135deg, rgb(3,8,12), rgb(16,57,79) );
+							background-image: -ms-linear-gradient( 135deg, rgb(3,8,12), rgb(16,57,79) );
+								background-image: linear-gradient( 135deg, rgb(3,8,12), rgb(16,57,79) );
+	height:100%;
+	overflow:hidden;
+	width:370px; 
+	position:fixed;
+	top:0;
+	left:-320px;
+	background-image: url("http://ciaderesultados.com.br/wp-content/uploads/2015/06/tecnologia.jpg");
+	}
+#lateral:before {
+	z-index:1000;
+	content: url(icone-menu.png);
+	font-size:4em;
+	color:white;
+	position:fixed;
+	left:4px;
+	top:45px;
+	}
+#lateral:hover:before, #lateral:focus:before {
+left:-500px
+	}
+#lateral:hover, #lateral:focus,  #lateral:active  {
+	overflow-y:scroll;
+	-moz-transform: translate(320px, 0);
+		-webkit-transform: translate(320px, 0);
+			-o-transform: translate(320px, 0);
+				transform: translate(320px, 0);
+	padding-right:0;
+	}	
+#lateral .box {
+	list-style-type:none;
+	margin-bottom:1em;;
+	padding-bottom:1em;
+	}
+#menu {
+	font-style:italic;
+	position:relative;
+	font-size:1.0em;
+	margin:1em 0 1em -1em;
+	padding:0;
+	}
+#menu li {padding:0; margin:0;}
+#menu li a,  #menu li a:link {
+	font-size:1.2em;
+	color:rgb(255,255,255);
+	text-decoration: none;
+	padding: 0.8em 0 0.8em 1em;
+	display: block;
+	-moz-transition: all 1.2s ease;
+			-webkit-transition: all 1.2s ease;
+				-o-transition: all 1.2s ease;
+					transition: all 1.2s ease;
+	}
+#menu li a:hover {
+	color:rgb(255,255,255);
+	background-color:rgba(255,255,255,0.2);
+	-moz-transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+	}	

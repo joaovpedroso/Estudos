@@ -1,0 +1,22 @@
+.botoes{
+	width: 10%;
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+}
+.botoes button{
+	padding: 1em;
+	margin: 1em;
+	font-weight: bold;
+	width: 9em;
+}
+footer {
+	margin-top: 5em;
+	position: absolute;
+	bottom: 0;
+	float: left;
+	width: 100%;
+	padding: 1em;
+	background-color: lightGray;
+	text-align: center;
+}

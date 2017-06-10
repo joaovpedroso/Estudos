@@ -1,0 +1,143 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: Tahoma, verdana;
+}
+header {
+	width: 100%;
+	float: left;
+	background: white;
+	position: fixed;
+	z-index: 1000;
+	padding: 5px;
+
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	list-style: none;	/* Retira o Marcador do item da lista <li> - */
+	display: inline; /* Alinhar os itens do menu */
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 20px;
+	margin: 5px;
+	float: left;
+}
+
+nav ul li a:hover {
+	background: gray;
+	color: white;
+}
+
+#banner {
+	width: 100%;
+}
+
+
+#banner img {
+	width: 100%;
+}
+
+
+#banner a {
+	width: 100%;
+}
+
+#galeria {
+	width: 100%;
+	float: left;
+	margin-top: 90px;
+}
+
+#galeria a {
+	text-decoration: none;
+}
+
+#galeria img {
+	width: 20%;
+	float: left;
+	margin: 10px;
+	margin-left: 3%;
+}
+
+#galeria h3 {
+	width: 15%;
+	border-radius: 5px 0 5px 0;
+	background: gray;
+	padding: 20px;
+	font: 15px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+footer{
+	margin-top: 20px;
+	width: 99%;
+	float:left;
+	font: 12px;
+	background: gray;
+	padding: 20px;
+	text-align: center;
+	margin: 0;
+	font-weight: bold;
+}
+
+footer p {
+	text-decoration: none;
+	color: white;
+}
+
+#formulario1 {
+	width: 100%;
+	float: left;
+	text-align: center;	
+	padding-top: 100px;
+}
+
+
+#formulario1 h2 {
+	margin: 5px;
+	font: 20px;
+	font-weight: bold;
+	padding: 5px;
+
+}
+
+
+#formulario1 button {
+	padding: 10px;
+}
+
+#sobre {
+	width: 100%;
+	float: left;
+	border-radius: 5px 0 5px 0;
+	height: 550px;
+
+}
+
+#sobre h3 {
+	font: 20px;
+	font-weight: bold;
+	padding: 10px;
+	padding-top: 100px;
+}
+
+#sobre p {
+	font: 15px;
+	margin: 10px;
+	padding: 20px;
+	padding-top: 100px;
+}
+
+#videos {
+	width: 100%;
+	float: left;
+}

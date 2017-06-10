@@ -1,0 +1,62 @@
+.negrito{
+	font-weight: bold;
+}
+.navbar-wrapper{
+	width: 100%;
+	background: black;
+	height: 4em;
+	margin-bottom: 10px;
+}
+.navbar-toggle{
+	background-color: black;
+}
+.navbar{
+	background-color: black;
+}
+.span {
+	color: white;
+	background: white;
+}
+.navbar{
+	margin-left: 2em;
+}
+.navbar-collapse{
+	margin-left: 3em;
+	float: right;
+}
+.navbar-collapse ul li{
+	margin-left: 3em;
+	margin-top: 5px;
+	margin-bottom: -20px;
+}
+.navbar-collapse ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 1em;
+	font: 18px Tahoma, Arial;
+}
+.navbar-collapse ul li a:hover {
+	color: black;
+}
+.ativo {
+	background-color: #DDDDDD;
+}
+.tituloPublicacao{
+	text-align: center;
+	font: 1.5em Tahoma, Verdana, Arial; 
+}
+#login {
+	width: 30%;
+	margin: 100px auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background: #fff;
+}
+#inicialMenus{
+	margin-left: 25%;
+	margin-bottom: 46%;
+}
+#rodape {
+	margin-bottom: 0;
+}

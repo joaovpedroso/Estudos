@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+header {
+	width: 100%;
+	background: #333;
+	border-bottom: 5px solid #7F286A;
+}
+#logo {
+	font: 2em Muli;
+	color: #FFF;
+	text-decoration: none;
+}
+nav {
+	float: right;
+	text-align: right;
+	margin-top: 10px;
+}
+nav ul li {
+	list-style: none;
+	display: inline;
+}
+nav ul li a {
+	font: 1em Abel;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+}
+nav ul li a:hover {
+	background: #7F286A;
+}
+footer {
+	background: #333;
+	border-top: 5px solid #7F286A;
+	margin-top: 10px;
+}
+footer p {
+	font: 1em Abel;
+	color: #fff;
+	text-align: center;
+	margin: 10px;
+}
+.cycle-slideshow img {
+	width: 100%;
+}
+.container {
+	width: 960px;
+	margin: auto;
+}
+h1 {
+	font: 2em Abel;
+	color: #fff;
+	background: #7F286A;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.noticias {
+	width: 300px;
+	padding: 5px;
+	margin: 4px;
+	border: 1px solid #ccc;
+	float: left;
+	font: 1em Abel;
+}
+.noticias img {
+	width: 100%;
+}
+.noticias a {
+	color: #333;
+	text-decoration: none;
+}
+.clearfix {
+	clear: both;
+}
+.jogos {
+	width: 220px;
+	padding: 5px;
+	margin: 4px;
+	border: 1px solid #ccc;
+	float: left;
+	font: 1em Abel;
+	text-align: center;
+}
+.jogos a {
+	text-decoration: none;
+	color: #7F286A;
+}
+.jogos img {
+	height: 200px;
+}
+
+

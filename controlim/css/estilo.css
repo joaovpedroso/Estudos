@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+body a {
+	text-decoration: none;
+}
+
+.navbar-brand {
+padding:  40px;
+}
+
+.navbar-brand img {
+	width: 60px;
+	margin-top: -34px;
+}
+
+
+.navbar-collapse {
+	padding: 30px;
+}
+
+.opc{
+	text-align: center;
+	font: 30px Tahoma, Arial, Verdana;
+}
+
+.opc a{
+	text-decoration: none;
+	color: black;
+}
+
+.opc a:hover {
+	color: red;
+	font-weight: bold;
+	padding: 15px;
+}
+
+.opc img {
+	width: 150px;
+}
+
+.titulo {
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial;
+}
+
+.clear{
+	clear: both;
+}

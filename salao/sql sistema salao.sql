@@ -1,0 +1,2 @@
+INSERT INTO clientes ('nome','telefone','email','endereco','foto','bairro','cidade','datanascimento','rg','cpf') VALUES (
+'nome','4499099876','email','endereco','foto','bairro','cidade','2016-01-01','128384855','99999999999');

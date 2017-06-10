@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula de jQuery</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript">
+		//Criando uma função
+		function esconder () {
+			// # -     ID
+			// . -    classe
+			// hide - esconder
+			$("#megan").hide();
+		} 
+		//Iniciar o jquery
+		//Carregar somente quando o documento estiver pronto
+		$(document).ready (function (){
+			//quando clicar no mostrar mostre a megan
+			$("#mostrar").click(function(){
+				//MOSTRAR A MEGAN
+				$("#megan").show();
+			})
+			// Funcao que esconde e mostra a megan fox
+			$("#escondemostra").click(function (){
+				$("#megan").toggle();
+			})
+		})
+		/*
+		function mostrar (){
+			$("megan").show();
+		}*/
+	</script>	
+</head>
+<body>
+	<h1>Esconde a Megan Fox</h1>
+	<img src="imgs/1p.jpg" id="megan" title="Megan Fox" alt="Megan Fox">
+
+	<a href="#" id="esconder" onclick="esconder()"> Esconder a Megan Fox</a>
+
+	<a href="#" id="mostrar" onclick="mostrar()"> Mostrar a Megan Fox</a>
+
+	<a href="#" id="escondemostra" > Esconde/Mostra a Megan Fox</a>
+
+
+</body>
+</html>

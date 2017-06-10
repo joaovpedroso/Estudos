@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Testando Single Page Com Id´s</title>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+</head>
+<script>
+	$(document).ready(function () {
+    	$("html").niceScroll();
+	});
+</script>
+<style type="text/css">
+	*{
+		color: white;
+	}
+	#menu {
+		position: fixed;
+		width: 57.4%;
+		opacity: 0.4;
+		margin-left: 40%;
+		background-color: lightgray;
+	}
+	#menu ul li{
+		display: inline;
+
+	}
+	#menu ul li a {
+		text-decoration: none;
+		color: black;
+				padding: 2.3%;
+	}
+	#menu ul li a:hover {
+		color: white;
+		background-color: gray;
+		opacity: 0.7;
+	}
+	.conteudo {
+		padding-left: 5%;
+		padding-top: 3%; 
+		padding-right: 5%;
+	}
+	#home {
+		background-color: black;
+		border-radius: 20px;
+		margin: 20px;
+		height: 650px;
+	}
+	#contato {
+		background-color: yellow;
+		border-radius: 20px;
+		margin: 20px;
+		height: 650px;
+	}
+	#sobre {
+		background-color: green;
+		border-radius: 20px;
+		margin: 20px;
+		height: 650px;
+	}
+	#saibaMais {
+		background-color: red;
+		border-radius: 20px;
+		margin: 20px;
+		margin-top: 3%;
+		height: 650px;
+	}
+</style>
+<body>
+	<div id="menu">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#contato">Contato</a></li>
+			<li><a href="#sobre">Sobre</a></li>
+			<li><a href="#saibaMais">saibaMais</a></li>
+		</ul>
+	</div>
+	<div id="home">
+		<div class="conteudo">
+			Conteudo da Home
+		</div>
+	</div>
+	<div id="contato">
+		<div class="conteudo">
+			conteudo da Contato
+		</div>
+	</div>
+	<div id="sobre">
+		<div class="conteudo">
+			conteudo da Sobre
+		</div>
+	</div>
+	<div id="saibaMais">
+		<div class="conteudo">
+			conteudo da saiba mais
+		</div>
+	</div>
+</body>
+</html>

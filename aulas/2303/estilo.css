@@ -1,0 +1,70 @@
+body {background: lightgray; }
+
+h1  {font: 36px Arial;}
+
+.titulo {font: 36px Arial Black;}
+
+h2  {font: 24px Arial ; color: red; }
+
+.alterazul { color: blue;}
+
+.alteravermelho  {color: red;
+				  font: 15px Comic sans MS;
+				  text-align: center;}
+
+p {	font: 14px Arial;}
+
+/*Classe de Margem*/
+.margem { margin: 50px;
+		  background: #fff; }
+
+/*Classe de Padding*/
+.padding { padding: 50px;
+		   background: green; }
+
+/*BORDA NORMAL*/
+.borda { border: 5px solid Black; }
+
+/*BORDA PONTILHADA*/
+.borda2 { border: 10px dotted Black;}
+
+/*BORDA TRACEJADA*/
+.borda3 { border: 15px dashed Black;}
+
+/*BORDA REDONDA*/
+.borda4 { border-radius: 4px; background: yellow;}
+
+/*SOMBRA*/
+.sombra { text-shadow: 2px 5px 4px darkgray ;}
+
+/*ESTILOS DE IMAGEM*/
+/*WIDTH = LARGURA
+ HEIGHT = ALTURA */
+	/*CLASSE DE IMAGEM 1 Largura e Altura*/
+	.img1 { width: 250px ;
+			height: 250px;}
+
+	/*CLASSE DE IMAGEM Largura*/
+	.img2 { width: 400px;}
+
+	/*CLASSE DE IMAGEM ALtura*/
+	.img3 { height: 400px;}
+
+/*MONTANDO SITE */
+
+/*CABEÇALHO*/ /*RODAPE*/
+	header, footer {width: 100%;
+	   background: darkblue;
+	        float: left;}
+
+footer p { color: #fff ;
+	  text-align: center;
+	      margin: 10px;}
+
+main { width: 70%;
+  background: #fff;
+	   float: left;}
+
+aside { width: 30%;
+   background: yellow;
+	    float: right;}

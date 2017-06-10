@@ -1,0 +1,25 @@
+body {
+	background: #f1f1f1 !important;
+	padding-top: 70px;
+}
+
+#login {
+	width: 400px;
+	margin: 100px auto;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background: #fff;
+}
+
+h1, h2 { margin: 0px 0px 10px; }
+
+.well { padding: 15px 10px; background: #fff !important; }
+
+.help-block ul { list-style: none; margin-left: -20px; }
+
+.help-block ul li { color: #F00; }
+
+a { color: #666; }
+
+a:hover { color: #333; }

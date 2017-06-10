@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galeria de fotos</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//Aplicar o ColorBox
+
+			//Abrindo Nova Telinha para a foto
+			$(".foto").colorbox({ rel:'foto', 
+								  transition:'fade'});
+
+			//Abrindo Nova Telinha para o Video
+			$(".video").colorbox({iframe: true,
+								  innerWidth:700,
+								  innerHeight: 420,
+								  rel:'video'})
+				// iframe - abrir o video em um iframe ( janelinha )
+				//innerWidth - Largura do Video
+				//innerHeight - Altura do video
+		})
+
+
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="colorbox.css">
+</head>
+<body>
+	<h1>Galeria de Mulheres Bonitas </h1>
+
+	<a href="imgs/1g.jpg" title="Megan Fox" class="foto">
+		<img src="imgs/1p.jpg" alt="Megan Fox" title="Megan Fox">
+	</a>
+	
+	<a href="imgs/2g.jpg" title="Megan Fox" class="foto">
+		<img src="imgs/2p.jpg" alt="Megan Fox" title="Megan Fox">
+	</a>
+	
+	<a href="imgs/3g.jpg" title="Joelma" class="foto">
+		<img src="imgs/3p.jpg" alt="Joelma" title="Joelma">
+	</a>
+
+	<h1>Videos</h1>
+		<p><b>Trailers de Filmes</b></p>
+
+		<a href="https://www.youtube.com/embed/3vYpPwBKJ28?rel=0&wmode=transparent "
+		title="X-Men" class="video">
+			<img src="imgs/xmen.jpg" alt="X-men" title="X-Men">
+		</a>	
+
+
+		<a href="https://www.youtube.com/embed/4jDFxVO1W0Q?rel=0&wmode=transparent "
+		title="Squadrao Suicida" class="video">
+			<img src="imgs/squad.jpg" alt="Squadrao Suicida" title="Squadrao Suicida">
+		</a>	
+
+
+</body>
+</html>

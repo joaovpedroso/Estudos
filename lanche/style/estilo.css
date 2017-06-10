@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	position: relative;
+}
+.hr{
+	background-color: yellow;
+	color: yellow;
+	height: 1px;
+	width: 90%;
+}
+.navbar{
+	background-color: orange;
+}
+.cinza {
+	background: white;
+	color: lightgray;
+}
+.navbar-collapse{
+	margin-left: 3em;
+}
+.navbar-collapse ul li a{
+	color: white;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.navbar-collapse ul li a:hover{
+	background-color: yellow;
+	color: orange;
+}
+#conteudo{
+	padding-bottom: 30em;
+}
+.rodape	{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.rodape a{
+	color: black;
+	font-weight: bold;
+}
+.rodape p{
+	text-align: center;
+}

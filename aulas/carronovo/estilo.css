@@ -1,0 +1,84 @@
+body{
+
+}
+
+#pagina{
+	width: 980px; /* LARGURA */
+	margin: 0 auto; /* CENTRALIZANDO A PAGINA */
+}
+
+header {
+	width: 980px; /* LARGURA */
+	text-align: center; /* ALINHA TEXTO OU IMAGEM AO CENTRO */
+}
+
+nav {
+	width: 958px;
+	background: #f1f1f1 ; /* COR DE FUNDO */
+	border: 2px solid #ccc; /* Borda com 2 PX de largura ESTILO SOLIDA cor CINZA MAIS ESCURA */
+	font: 14px Tahoma; /* ALTEROU FONTE COM --- TAMANHO / NOME DA FONTE */
+	padding: 10px; /* MARGEM DENTRO DO OBJETO */	
+	margin-bottom: 10px; /* MARGEM NO RODAPÈ */
+	border-radius: 6px; /* ARREDONDA OS CANTOS DA BORDA */
+	text-align: center; /* ALINHA TEXTO AO CENTRO */
+}
+
+nav a { /* ALTERA PARAMETROS DO LINK */
+	text-decoration: none; /* RETIRA OU COLOCA SUBLINHADO NO TEXTO */
+	color: #ccc; /* COLOCA COR NOS LINKS DENTRO DE NAV */
+	margin: 10px; /* COLOCOU ESPACAMENTO ENTRE OS LINKS */
+}
+
+nav a:hover { /* ALTERA COR QUANDO MOUSE COLOCADO EM CIMA DO LINK */
+	color: #000; /* DEIXA O LINK PRETO QUANDO COLOCADO O MOUSE EM CIMA */
+}
+
+#banner img {
+	border-radius: 6px; /* ARREDONDOU A BORDA DA IMAGEM DE BANNER */
+}
+
+h1 {
+	font: 36px Tahoma; /* ALTEROU A FONTE DOS TITULOS H1 PARA TAMANHO E FONTE */
+}
+
+p {
+	font: 14px Tahoma; /* ALTEROU A FONTE DOS PARAGRAFOS PARA TAMANHO E FONTE */
+}
+
+.coluna {
+	width: 235px; /* 980 / 4 = 245px - 10 px de margem = 235px */
+	text-align: center;
+	float: left;
+	margin: 4px; 
+}
+
+.coluna img {
+	width: 100%; /* IMAGEM UTILIZA 100% DA COLUNA QUE ACIMA FOI DENOMINADA COM 250 PIXELS */
+	border-radius: 6px;
+}
+
+.valor {
+	color: red;
+	font-weight: bold; /* BOLD = Negrito */
+}
+
+#marcas {
+	width: 980px;
+	text-align: center;
+}
+
+#marcas img[
+	margin: 5px;
+]
+
+footer {
+	width: 960px;
+}
+
+footer p {
+	color: #fff;
+	text-align: center; 
+	background: #333;
+	border-radius: 6px;
+	padding: 8px;
+}

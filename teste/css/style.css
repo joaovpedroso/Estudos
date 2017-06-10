@@ -1,0 +1,11 @@
+body {
+	padding-top: 20px;
+}
+
+nav img { height: 40px; margin-top: -10px; }
+
+.thumbnail { width: 100%; }
+
+.row h2 { height: 130px; color: #F00; font-size: 2em;}
+
+.row h3 { font-size: 3em; color: #f00; }

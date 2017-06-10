@@ -1,0 +1,215 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald|Ubuntu';
+
+@cor1: #FFC419;
+@cor2: #000;
+@cor3: #333;
+@cor4: #F00;
+@t1: 2em Ubuntu;
+@t2: 1.5em Ubuntu;
+@t3: 1.1em Oswald;
+@t4: 1.2em Oswald;
+@t5: 1em Ubuntu;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, p {
+	margin: 10px 0px;
+}
+
+p {
+	font: @t4;
+	color: @cor2;
+}
+
+header {
+	width: 100%;
+	background: @cor2;
+	padding: 10px 0px;
+	float: left;
+	position: fixed;
+	z-index: 1000;
+	form {
+		float: right;
+		padding: 10px;
+		width: 300px;
+		input, button {
+			border: 0px;
+			padding: 5px;
+		}
+		input {
+			width: 250px;
+			border-radius: 5px 0px 0px 5px;
+			float: left;
+		}
+		button {
+			width: 40px;
+			background: @cor1;
+			border-radius: 0px 5px 5px 0px;
+			float: right;
+		}
+	}
+}
+
+nav {
+	width: 900px;
+	margin: auto;
+	ul li {
+		display: inline;
+		list-style: none;
+	}
+	ul li a {
+		color: #FFF;
+		font: @t3;
+		text-decoration: none;
+		width: 110px;
+		margin: 2px;
+		padding: 5px;
+		border-bottom: 3px solid #fff;
+		float: left;
+		text-transform: uppercase;
+		transition: all 0.5s;
+
+	}
+	ul li a:hover {
+		background: @cor1;
+		color: @cor2;
+		text-decoration: none;
+		border-bottom: 3px solid @cor3;
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	width: 900px;
+	margin: auto;	
+}
+
+.center {
+	text-align: center;
+}
+
+.btn {
+	border: 1px solid #ccc;
+	color: #ccc;
+	padding: 10px;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.btn:hover {
+	border: 1px solid #000;
+	color: #000;
+}
+
+footer {
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+	.top {
+		background: @cor3;
+		padding: 10px 0px;
+		width: 100%;
+		float: left;
+		.coluna1 {
+			width: 600px;
+			float: left;
+		}
+		.coluna2 {
+			width: 300px;
+			float: right;
+			p {
+				color: #fff;
+			}
+			a {
+				color: #fff;
+				margin: 10px;
+				font-size: 1.2em;
+				text-decoration: none;
+				border: 1px solid #fff;
+				width: 40px;
+				height: 40px;
+				display: inline-block;
+				border-radius: 100px;
+				padding: 10px;
+			}
+			a:hover {
+				color: @cor1;
+				border-color: @cor1;
+			}
+		}
+	}
+	.bottom {
+		background: @cor2;
+		padding: 10px 0px;
+		width: 100%;
+		float: left;
+		p {
+			color: #fff;
+			font-size: 1em;
+			float: left;
+		}
+		img {
+			float: right;
+			width: 10%;
+		}
+	}
+}
+
+main {
+	padding-top: 130px;
+}
+
+h1 {
+	font: @t1;
+}
+
+h2 {
+	font: @t2;
+	color: @cor4;
+}
+
+.coluna {
+	width: 225px;
+	float: left;
+	h2 {
+		height: 50px;
+	}
+	img {
+		width: 130px;
+		height: 200px;
+	}
+	a {
+		color: @cor4;
+		text-decoration: none;
+		border: 1px solid @cor4;
+		margin: 10px;
+		padding: 10px;
+		font: @t5;
+	}
+	a:hover {
+		color: #fff;
+		border-color: @cor2;
+		background: @cor4;
+	}
+}
+
+.coluna1 {
+	width: 20%;
+	float: left;
+	img {
+		width: 100%;
+		padding: 5px;
+		border: 1px solid @cor3;
+	}
+}
+
+.coluna2 {
+	width: 75%;
+	float: right;
+}

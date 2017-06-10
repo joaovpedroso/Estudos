@@ -1,0 +1,71 @@
+body{
+	overflow-x: hidden;
+}
+.menu a {
+	margin-left: 3em;
+}
+
+.menu ul li a {
+	color: white;
+}
+
+.menu ul li a:hover {
+	background: magenta;
+}
+
+.navbar-header {
+
+}
+
+.navbar-header span {
+	background: white;
+}
+
+.navbar-brand {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-brand:hover{
+	color: white;
+}
+
+.panel img{
+	width: 10em;
+	margin: 2em;
+
+}
+
+.link a {
+	text-decoration: none;
+}
+
+/*.margem {
+	margin-left: 25em;
+	margin-top: 10em;
+}
+*/
+
+.centraliza_texto {
+	text-align: center;
+}
+
+.opc{
+	text-align: center;
+	font: 30px Tahoma, Arial, Verdana;
+}
+
+.opc a{
+	text-decoration: none;
+	color: black;
+}
+
+.opc a:hover {
+	color: red;
+	font-weight: bold;
+	padding: 15px;
+}
+
+.opc img {
+	width: 150px;
+}

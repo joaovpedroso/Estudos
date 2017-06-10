@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Verdana;
+}
+
+header {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	padding: 10px 0px;
+		/* 10 px Aplica top e Bottom - em cima e embaixo
+			0 px Aplica nos lados - Direita e Esquerda
+		*/
+	position: fixed;
+	z-index: 1000;
+	background: white;
+}
+
+#logo {
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	list-style: none;	/* Retira o Marcador do item da lista <li> - */
+	display: inline; /* Alinhar os itens do menu */
+	
+}
+
+nav ul li a {
+	color: #333;
+	text-decoration: none; /* Retira o Sublinhado */
+	padding: 10px;
+	margin: 5px;
+	float: left;
+}
+
+nav ul li a:hover{
+	background: #333;
+	color: #fff;
+}
+
+.cycle-slideshow {
+	margin-top: 70px;
+	width: 100%;
+	float: left;
+}	
+
+.cycle-slide img {
+	width: 100%;
+}
+
+.cycle-slide  {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	background: #333;
+	float: left;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+main {
+	width: 1000px;
+	margin: auto; /* CENTRALIZAR */
+}
+
+main section {
+	width: 660px;
+	float: left;
+}
+
+main aside {
+	width: 300px;
+	float: right;
+	background: #f1f1f1;
+	padding: 10px;
+	text-align: center;
+}
+
+aside a {
+	width: 100%;
+	background: #f00;
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+	float: left;
+	margin-bottom: 1px;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+aside a:hover{
+	background: #8c0000;
+}
+
+.curso {
+	width: 200px;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+}
+
+.curso img {
+	width: 100%;
+}
+
+.curso p {
+	margin: 10px;
+}
+
+.curso a, .botao {
+	background: #f00;
+	color: #FFF;
+	padding: 10px;
+	text-decoration: none;
+}
+
+
+.center {
+	text-align: center;
+}
+
+.botao:hover {
+	background: #8c0000;
+}
+
+.clearfix {
+	clear: both;
+}

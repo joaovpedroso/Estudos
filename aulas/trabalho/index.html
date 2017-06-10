@@ -1,0 +1,107 @@
+ 	<!DOCTYPE html>
+<html>
+<head>
+	<title>Joao Victor D. Pedroso</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+			$(".foto").colorbox({ rel:'#galeria1', 
+								  transition:'fade'
+			});
+	})		
+	</script>
+
+	<!--Adicionando Estilo do ColorBox -->
+	<link rel="stylesheet" type="text/css" href="colorbox.css">
+
+</head>
+
+
+<body>
+	<header>
+		<a href="index.html" title="Home">
+			<img src="img/logo2.png" alt="Logo Joao" title="Logo Joao">
+		</a>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html"> Home </a> 
+				</li>	
+
+				<li>
+					<a href="sobre.html"> Sobre </a>
+				</li>
+
+				<li>
+					<a href="fotos.html"> Fotos </a>
+				</li>
+
+				<li>
+					<a href="contato.html"> Contato </a>
+				</li>
+			</ul>
+	</nav>
+
+	</header>
+
+	
+	
+
+	<section id="banner" class="cycle-slideshow" 
+			data-cycle-slides="> a">
+		<a href="sobre.html" title="Sobre">
+			<img src="img/banner1.jpg" alt="Imagem 1" title="Imagem 1">
+		</a>
+		
+		<a href="fotos.html" title="Fotos">	
+			<img src="img/banner2.jpg" alt="Imagem 2" title="Imagem 2">
+		</a>
+
+		<a href="contato.html" title="Contato">
+			<img src="img/banner3.jpg" alt="Imagem 3" title="Imagem 3">
+		</a>
+	</section>
+
+
+
+	<div id="galeria">
+	<a href="fotos.html" title="Fotos" ><h3>Algumas Fotografias</h3> </a>
+		<div class="fotos">
+			<a href="img/f1.jpg" title="foto1"  class="foto">
+				<img src="img/f1p.jpg" alt="foto1" title="foto1">
+			</a>
+		</div>
+
+		<div class="fotos">
+			<a href="img/f2.jpg" alt="foto2"  class="foto">
+				<img src="img/f2p.jpg" alt="foto2" title="foto2">
+			</a>
+		</div>
+
+		<div class="fotos">
+			<a href="img/f3.jpg" alt="foto3"  class="foto">
+				<img src="img/f3p.jpg" alt="foto3" title="foto3">
+			</a>
+		</div>
+
+		<div class="fotos">
+			<a href="img/f4.jpeg" alt="foto4"  class="foto">
+				<img src="img/f4p.jpg" alt="foto4" title="foto4">
+			</a>
+		</div>
+	</div>	
+
+	
+
+
+
+	<footer>
+	<p>Desenvolvido Por Joao Victor D. Pedroso  -  Umuarama - PR </p>
+	</footer>
+</body>
+
+</html>

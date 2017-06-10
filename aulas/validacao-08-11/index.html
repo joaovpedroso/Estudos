@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>EXEMPLO VALIDACAO</title>
+
+    <script type="text/javascript">
+      //Funcao para testar se o campo esta vazio
+      function vazio(){
+        var input=document.querySelector("input").value;
+        var area=document.querySelector("textarea").value;
+
+        if(input==""||area==""){
+
+          alert("Existem campos obrigatorios que estão vazios !");
+
+        };
+      };
+
+      
+      
+    </script>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">  
+      <form class="form-group"  >
+        <div class="container">
+          <div class="col-md-4">          
+            <label for="edicao">Edição</label>
+            <input type="text" name="edicao" id="edicao" class="form-control">
+          </div>
+        </div>
+        <div class="container">
+          <div class="col-md-4">
+            <label for="descricao">Descrição</label>
+            <textarea name="descricao" id="descricao" class="form-control" rows="6"></textarea>
+          </div>
+        </div>  
+
+        <div class="container">
+          <div class="col-md-4">
+            <label for="titulo">Titulo</label>
+            <input type="text" name="titulo" id="titulo" class="form-control">
+          </div>
+        </div>  
+        <div class="col-md-4 text-center" style="margin-top: 8px;">
+          <button type="submit" class="btn btn-success">Enviar</button>
+          <button type="reset" class="btn btn-danger" value="cancelar">Cancelar</button>
+        </div>  
+      </form>
+    </div>    
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+/*
+COR AZUL CLARO = #4192FF
+
+
+*/
+.preto{
+	background-color: black;
+}
+.navbar-header img{
+	width: 150px;
+	margin-top: -49px;
+}
+.navbar-toggle{
+	background-color: #4192FF;
+}
+.branco{
+	color: white;
+	background: white;
+}
+.navbar-collapse{
+	float: right;
+}
+.navbar-nav{
+	margin-top: -10px;
+}
+.navbar-collapse{
+	padding: 20px;
+	margin-top: 10px;
+}
+.navbar-collapse ul li a{
+	background-color: #4192FF;
+	margin: 5px;
+	margin-right: 2px; 
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font: 17px Arial Black;
+	padding: 10px;
+}
+.navbar-collapse ul li a:hover{
+
+}
+.cycle-slideshow{
+	width: 100%;
+	margin-top: -18px;
+}
+.cycle-slideshow img{
+	width: 100%;
+}
+.well{
+	background: black;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 4px;
+	min-width: 90%;
+	max-width: 100%;
+	min-height: 500px;
+	max-height: 500px;
+}
+.caixa{
+	border: 1px solid white;
+	text-align: center;
+	border-radius: 8px;
+	padding: 3%;
+	margin-left: 10%;
+	margin-top: 5%;
+	color: #4192FF;
+	font-weight: bold;
+	min-height: 50px;
+	max-height: 450px;
+}
+.caixa img{
+	border-radius: 10px;
+	width: 50%;
+	margin-left: 25%;
+}
+#peso{
+	margin-top: 15%;
+	margin-bottom: 15%;
+}

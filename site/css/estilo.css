@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+}
+#publicacoes {
+	margin-top: 2%;
+	padding-top: 3%;
+}
+.navbar-wrapper{
+	width: 100%;
+	background: black;
+	height: 4em;
+	margin-top: -20px;
+	margin-bottom: 10px;
+	position: fixed;
+	z-index: 1000;
+}
+.navbar-toggle{
+	background-color: black;
+}
+.navbar{
+	background-color: black;
+}
+.span {
+	color: white;
+	background: white;
+}
+.navbar{
+	margin-left: 2em;
+}
+.navbar-collapse{
+	margin-left: 3em;
+	float: right;
+}
+.navbar-collapse ul li{
+	margin-left: 3em;
+	margin-top: 5px;
+	margin-bottom: -20px;
+}
+.navbar-collapse ul li a {
+	text-decoration: none;
+	color: white;
+	font: 18px Tahoma, Arial;
+}
+.navbar-collapse ul li a:hover {
+	color: black;
+}
+.cycle-slideshow img{
+	width: 100%;
+}
+.banner{
+	margin-top:20px;
+}
+.well{
+	background: white;
+}
+.publicacoes {
+	text-align: center;
+	border: 1px solid lightgray;
+	margin: 4px;
+}
+.publicacoes img {
+	height: 160px;
+	margin-left: 10%;
+	width: 85%;
+}
+.link a {
+	text-decoration: none;
+	color: black;
+}
+#rodape {
+	margin-bottom: 0;
+}

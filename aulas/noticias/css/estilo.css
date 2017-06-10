@@ -1,0 +1,23 @@
+.cycle-slideshow, .cycle-slide, .img {
+	width:100%;
+}
+
+.rodape {
+	color: black;
+	margin-top: auto;
+	margin-bottom: 0px;
+}
+
+.espaco {
+	margin-top: 20px;
+}
+
+.nav-pills li a {
+	background: black;
+	padding: 15px;
+	margin: 2px;
+}
+
+.navbar-nav li a {
+
+}

@@ -1,0 +1,190 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald|Ubuntu';
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+p {
+  margin: 10px 0px;
+}
+p {
+  font: 1.2em Oswald;
+  color: #000000;
+}
+header {
+  width: 100%;
+  background: #000000;
+  padding: 10px 0px;
+  float: left;
+  position: fixed;
+  z-index: 1000;
+}
+header form {
+  float: right;
+  padding: 10px;
+  width: 300px;
+}
+header form input,
+header form button {
+  border: 0px;
+  padding: 5px;
+}
+header form input {
+  width: 250px;
+  border-radius: 5px 0px 0px 5px;
+  float: left;
+}
+header form button {
+  width: 40px;
+  background: #ffc419;
+  border-radius: 0px 5px 5px 0px;
+  float: right;
+}
+nav {
+  width: 900px;
+  margin: auto;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+}
+nav ul li a {
+  color: #FFF;
+  font: 1.1em Oswald;
+  text-decoration: none;
+  width: 110px;
+  margin: 2px;
+  padding: 5px;
+  border-bottom: 3px solid #fff;
+  float: left;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  background: #ffc419;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 3px solid #333333;
+}
+.clear {
+  clear: both;
+}
+.container {
+  width: 900px;
+  margin: auto;
+}
+.center {
+  text-align: center;
+}
+.btn {
+  border: 1px solid #ccc;
+  color: #ccc;
+  padding: 10px;
+  text-decoration: none;
+  margin: 10px;
+}
+.btn:hover {
+  border: 1px solid #000;
+  color: #000;
+}
+footer {
+  width: 100%;
+  float: left;
+  margin-top: 15px;
+}
+footer .top {
+  background: #333333;
+  padding: 10px 0px;
+  width: 100%;
+  float: left;
+}
+footer .top .coluna1 {
+  width: 600px;
+  float: left;
+}
+footer .top .coluna2 {
+  width: 300px;
+  float: right;
+}
+footer .top .coluna2 p {
+  color: #fff;
+}
+footer .top .coluna2 a {
+  color: #fff;
+  margin: 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 100px;
+  padding: 10px;
+}
+footer .top .coluna2 a:hover {
+  color: #ffc419;
+  border-color: #ffc419;
+}
+footer .bottom {
+  background: #000000;
+  padding: 10px 0px;
+  width: 100%;
+  float: left;
+}
+footer .bottom p {
+  color: #fff;
+  font-size: 1em;
+  float: left;
+}
+footer .bottom img {
+  float: right;
+  width: 10%;
+}
+main {
+  padding-top: 130px;
+}
+h1 {
+  font: 2em Ubuntu;
+}
+h2 {
+  font: 1.5em Ubuntu;
+  color: #ff0000;
+}
+.coluna {
+  width: 225px;
+  float: left;
+}
+.coluna h2 {
+  height: 50px;
+}
+.coluna img {
+  width: 130px;
+  height: 200px;
+}
+.coluna a {
+  color: #ff0000;
+  text-decoration: none;
+  border: 1px solid #ff0000;
+  margin: 10px;
+  padding: 10px;
+  font: 1em Ubuntu;
+}
+.coluna a:hover {
+  color: #fff;
+  border-color: #000000;
+  background: #ff0000;
+}
+.coluna1 {
+  width: 20%;
+  float: left;
+}
+.coluna1 img {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #333333;
+}
+.coluna2 {
+  width: 75%;
+  float: right;
+}
